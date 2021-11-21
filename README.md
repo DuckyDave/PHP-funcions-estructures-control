@@ -4,7 +4,7 @@
 
 - Exercici 1
 
-Programa una funciò que, donat un número qualsevol(per exemple,la teva edat) ens digui si és parell o imparell mitjançant un missatge per pantalla.
+Programa una funciò que, donat un número qualsevol (per exemple,la teva edat) ens digui si és parell o imparell mitjançant un missatge per pantalla.
 
 - Exercici 2
 
