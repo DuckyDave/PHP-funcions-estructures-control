@@ -1,11 +1,11 @@
 <?php
 function calculaGrau($numero) {
     $missatge = "";
-    if ($numero < 33/100){
+    if ($numero < 3.3){
         $missatge = "Repovat";
-    } elseif ($numero <= 44/100) {
+    } elseif ($numero <= 4.4) {
         $missatge = "Tercera Divisió";
-    } elseif ($numero <= 59/100) {
+    } elseif ($numero <= 5.9) {
         $missatge = "Segona Divisió";
     } else {
         $missatge = "Primera Divisió";
