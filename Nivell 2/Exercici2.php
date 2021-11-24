@@ -2,7 +2,7 @@
     function preuTrucada (int $durada) {
         $cost = 10;
         if ($durada >= 180) {
-            $cost += (($durada - 180) * 3);
+            $cost += (($durada - 180) * 5);
         }
         return $cost;
     }
@@ -33,7 +33,7 @@
         imprimirText(preuTrucada($durada));
     /* en cas d'error avisem per pantalla */
     } else {
-        echo ("Per calcular el cost de la trucada s'ha d'indicar la seva durada en minuts i segons" ."\n");
+        echo ("Per calcular el cost de la trucada s'ha d'indicar la seva durada en minuts i segons separats per un espai en blanc" ."\n");
         echo ("Per exemple: php Exercici2.php 3 48". "\n");
     }
 ?>
